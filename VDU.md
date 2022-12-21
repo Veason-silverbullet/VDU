@@ -13,6 +13,6 @@
 |LiLT        ||||||
 |DocFormer   ||||||
 |ERNIE-Layout||||||
-|XDoc        |Plain, Document and Web Texts|BERT-architecture                           |MLM loss                                         |Three input text formats(tasks), shared embedding and transformer layers, adaptive embedding|
+|XDoc        |Plain, Document, and Web Texts|BERT-architecture                          |MLM loss                                         |Three input text formats(tasks), shared embedding and transformer layers, adaptive embedding|
 |BROS        ||||||
 |UDOP        ||||||
