@@ -12,7 +12,7 @@
 |UniDoc      |Image(ROI), Text, Layout      |Single-tower Encoder + gated cross attention|Masked Language Feature Reconstruction + VL contrastive loss + VL aligment loss|Single-tower cross-interaction, contrastive and alignment loss|
 |LiLT        ||||
 |DocFormer   ||||
-|ERNIE-Layout||||
+|ERNIE-Layout|Image(patch), Text, Layout    |BERT-architecture                           |LM loss + ROP loss + RRP loss + TIA loss       |Incorporate reading order information and multiple losses                                     |
 |XDoc        |Plain, Document, and Web Texts|BERT-architecture                           |MLM loss                                       |Three input text formats(tasks), shared embedding and transformer layers, adaptive embedding  |
 |BROS        |Image(ROI), Text, Layout      |BERT-architecture                           |MLM loss + Masked Area Modeling (SpanBERT)     |2D relative positional biases and area-masked language modeling                               |
 |UDOP        |Image(patch), Text, Layout    |Multimodal encoder and prompt-based decoder |Maksed token modeling (SSL) + Supervised tasks |Multimodal encoder + multitask prompt-based decoder. Masked multi-modality modelings (masked language/layout/fusion/image modeling) and varied supervised tasks (DocCLS, DocVQA, LayoutAnalysis, IE, NLI)|
